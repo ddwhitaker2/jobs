@@ -1,0 +1,100 @@
+/* This is the design of the page */
+
+/* Sizing */
+
+* {
+    box-sizing: border-box;
+}
+
+/* Styles for the main content */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4398ff;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Centering the main content */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+/* Main page titles */
+h1 {
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+/* Introduction text */
+main > p {
+    text-align: center;
+    color: #363636;
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 650px;
+    margin: 0 auto 30px auto;
+}
+
+/* search inputs */
+#search-input {
+    width: 70%;
+    padding: 12px 14px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+/* search button */
+#search-button {
+    padding: 12px 10px;
+    font-size: 18px;
+    border: none;
+    background-color:#ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+}
+
+/* Adding interaction */
+#search-button:hover {
+    background-color: #444;
+}
+
+/* Job cards area */
+#results {
+    margin-top: 30px;
+}
+
+.job-card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+/* Job title inside each card */
+.job-card h2 {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+/* Text inside job cards */
+.job-card p {
+    margin: 8px 0;
+    line-height: 1.4;
+}
+
+/* Apply link */
+.job-card a {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
